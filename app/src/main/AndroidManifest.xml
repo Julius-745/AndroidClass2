@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.julius745.AndroidClass2" >
+    package="com.activity.AndroidClass2" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,13 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name=".SecondActivity"
+            android:name="com.activity.AndroidClass2.SecondActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.activity.AndroidClass2.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.activity.AndroidClass2.SplashScreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
