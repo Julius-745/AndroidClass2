@@ -16,7 +16,6 @@ import java.text.BreakIterator;
 public class MainActivity extends AppCompatActivity {
     EditText editText;
     EditText editText2;
-    CheckBox checkBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
         daftar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(editText.getText().toString().length()==0){
+                if (editText.getText().toString().length() == 0) {
                     editText.setError("Nim Diperlukan!");
-                }else if(editText2.getText().toString().length()==0){
+                } else if (editText2.getText().toString().length() == 0) {
                     editText2.setError("Username diperlukan!");
-                }else{
-                    Toast.makeText(getApplicationContext(),"Processed", Toast.LENGTH_SHORT);
+                } else {
+                    Toast.makeText(getApplicationContext(), "Processed", Toast.LENGTH_SHORT);
                     Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                     startActivity(intent);
                 }
