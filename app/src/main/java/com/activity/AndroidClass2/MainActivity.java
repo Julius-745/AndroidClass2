@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button daftar = (Button) findViewById(R.id.btn1);
-        CheckBox checkBox = (CheckBox) findViewById(R.id.cb1);
         editText = (EditText) findViewById(R.id.et1);
         editText2 = (EditText) findViewById(R.id.et2);
 
