@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -15,6 +16,7 @@ import java.text.BreakIterator;
 public class MainActivity extends AppCompatActivity {
     EditText editText;
     EditText editText2;
+    CheckBox checkBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,23 +24,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button daftar = (Button) findViewById(R.id.btn1);
-        daftar.setEnabled(false);
-
-
+        CheckBox checkBox = (CheckBox) findViewById(R.id.cb1);
         editText = (EditText) findViewById(R.id.et1);
         editText2 = (EditText) findViewById(R.id.et2);
 
-        if (TextUtils.isEmpty(editText.getText().toString()) && TextUtils.isEmpty(editText2.getText().toString())) {
-            Toast.makeText(MainActivity.this, "Empty Field Not Allowed", Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(MainActivity.this, "Proceed", Toast.LENGTH_SHORT).show();
-            daftar.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
+        daftar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(editText.getText().toString().length()==0){
+                    editText.setError("Nim Diperlukan!");
+                }else if(editText2.getText().toString().length()==0){
+                    editText2.setError("Username diperlukan!");
+                }else{
+                    Toast.makeText(getApplicationContext(),"Processed", Toast.LENGTH_SHORT);
                     Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                     startActivity(intent);
                 }
-            });
-        }
+            }
+        });
+
     }
 }
