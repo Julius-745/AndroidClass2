@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.et1);
         editText2 = (EditText) findViewById(R.id.et2);
 
-        if (TextUtils.isEmpty(editText.getText().toString()) && TextUtils.isEmpty(editText2.getText().toString())) {
+        if (TextUtils.isEmpty(editText.getText().toString()) || TextUtils.isEmpty(editText2.getText().toString())) {
             Toast.makeText(MainActivity.this, "Empty Field Not Allowed", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(MainActivity.this, "Proceed", Toast.LENGTH_SHORT).show();
