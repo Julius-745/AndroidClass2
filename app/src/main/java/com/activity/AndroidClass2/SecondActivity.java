@@ -13,13 +13,14 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-
+        // ambil konteks
         Context konteks = getApplicationContext();
+        // tampilkan toast
         CharSequence kata = "Berhasil!";
         int durasi = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(konteks,kata,durasi);
         toast.show();
-
+        // ambil webview trus load halaman UTM
         WebView web = (WebView) findViewById(R.id.wv);
         web.loadUrl("https://www.trunojoyo.ac.id/");
 
