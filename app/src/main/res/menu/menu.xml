@@ -14,8 +14,8 @@
         app:showAsAction="never"/>
 
     <item
-        android:id="@+id/help"
-        android:title="help"
+        android:id="@+id/logout"
+        android:title="logout"
         app:showAsAction="never"/>
 
 </menu>
