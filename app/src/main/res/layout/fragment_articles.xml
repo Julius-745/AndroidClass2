@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArticlesFragment">
+
+        <TextView
+            android:id="@+id/viewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Website"
+            android:textAlignment="center"
+            android:textSize="12pt"></TextView>
+
+        <WebView
+            android:id="@+id/viewWebFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/viewTitle"></WebView>
+
+        <Button
+            android:id="@+id/viewPopBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewTitle"
+            android:text="Buka di Chrome"></Button>
+
+</RelativeLayout>
