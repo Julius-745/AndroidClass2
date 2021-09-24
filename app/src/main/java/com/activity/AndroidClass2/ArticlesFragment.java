@@ -59,7 +59,6 @@ public class ArticlesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_articles, container, false);
-        ((ActivityCNN) getActivity()).fr = this;
         WebView web = (WebView) view.findViewById(R.id.viewWebFrame);
         web.loadUrl("https://" + website);
         TextView text = (TextView) view.findViewById(R.id.viewTitle);

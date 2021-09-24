@@ -10,7 +10,6 @@ public class SplashScreen extends AppCompatActivity {
     // 5000 milidetik = 5 detik
     private final int SPLASH_LENGTH = 5000;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

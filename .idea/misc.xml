@@ -3,12 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/activity_cnn.xml" value="0.25" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/activity_help.xml" value="0.25" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/layout/fragment_articles.xml" value="0.24547101449275363" />
+        <entry key="..\:/GIT/AndroidClass2/app/src/main/res/menu/menu.xml" value="0.25" />
         <entry key="..\:/KERJA/KULIAH/Android/PPB/AndroidClass2-main/app/src/main/res/drawable/bottom_header.xml" value="0.20833333333333334" />
         <entry key="..\:/KERJA/KULIAH/Android/PPB/AndroidClass2-main/app/src/main/res/drawable/top_header.xml" value="0.20833333333333334" />
         <entry key="..\:/KERJA/KULIAH/Android/PPB/AndroidClass2-main/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/KERJA/KULIAH/Android/PPB/AndroidClass2-main/app/src/main/res/layout/activity_second.xml" value="0.20416666666666666" />
         <entry key="..\:/KERJA/KULIAH/Android/PPB/AndroidClass2-main/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
-        <entry key="..\:/Tugas/PPB/TUGAS/2/AndroidClass2/app/src/main/res/layout/activity_cnn.xml" value="0.17" />
+        <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/activity_help.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/activity_main.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/activity_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/activity_splash_screen.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/fragment_articles.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.34375" />
         <entry key="app/src/main/res/layout/activity_splas_screen.xml" value="0.1" />
@@ -19,7 +33,7 @@
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

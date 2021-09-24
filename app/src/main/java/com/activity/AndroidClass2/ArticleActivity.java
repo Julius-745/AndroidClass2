@@ -7,14 +7,14 @@ import androidx.fragment.app.FragmentContainerView;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class ActivityCNN extends AppCompatActivity {
-public ArticlesFragment fr;
+public class ArticleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cnn);
-        fr.
 
+        ArticlesFragment fragment = ArticlesFragment.newInstance("https://cnn.com");
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
     }
 }
