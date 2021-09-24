@@ -44,7 +44,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_toRightOf="@+id/news_title"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/pexels_photo_large" />
+                    android:src="@drawable/gambar2"/>
 
             </RelativeLayout>
 
@@ -79,7 +79,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_toRightOf="@+id/news_title1"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/background_image" />
+                    android:src="@drawable/gambar2"/>
 
             </RelativeLayout>
 
@@ -114,7 +114,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_toRightOf="@+id/news_title2"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/pexels_photo_large" />
+                    android:src="@drawable/gambar2"/>
 
             </RelativeLayout>
 
