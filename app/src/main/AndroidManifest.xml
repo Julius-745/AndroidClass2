@@ -12,11 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <service
+            android:name=".SimpleService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
             android:name=".ArticleActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Help"
             android:exported="true" />
         <activity
             android:name=".About"

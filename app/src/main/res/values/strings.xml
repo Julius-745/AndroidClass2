@@ -5,4 +5,7 @@
     <string name="about">About</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Hello">Hello</string>
+    <string name="Start">Start</string>
+    <string name="Stop">Stop</string>
 </resources>
