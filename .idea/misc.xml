@@ -24,12 +24,14 @@
         <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/activity_splash_screen.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/ibisy/OneDrive/Documents/GitHub/Android/AndroidClass2/app/src/main/res/layout/fragment_articles.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_help.xml" value="0.3188405797101449" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.34375" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splas_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_articles.xml" value="0.34692028985507245" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.33" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.35885416666666664" />
       </map>
     </option>

@@ -8,4 +8,7 @@
     <string name="Hello">Hello</string>
     <string name="Start">Start</string>
     <string name="Stop">Stop</string>
+    <string name="Home">Home</string>
+    <string name="AddPost">AddPost</string>
+    <string name="News">News</string>
 </resources>

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     editText2.setError("Username diperlukan!");
                 } else {
                     Toast.makeText(getApplicationContext(), "Processed", Toast.LENGTH_SHORT);
-                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                    Intent intent = new Intent(MainActivity.this, HomeActivity.class);
                     startActivity(intent);
                 }
             }
