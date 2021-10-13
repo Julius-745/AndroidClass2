@@ -1,34 +1,34 @@
 package com.julius745.crudfile;
 
-public class notesmodels {
-    int id;
-    String name;
+public class Note {
+    long id;
+    String content;
     Boolean checked;
 
-    public notesmodels(){
+    public Note(){
 
     }
 
-    public notesmodels(int id, String name, Boolean checked){
+    public Note(long id, String content, Boolean checked){
         this.id = id;
-        this.name = name;
+        this.content = content;
         this.checked = checked;
     }
 
-    public int getId(){
+    public long getId(){
         return id;
     }
 
-    public void setId(int id){
+    public void setId(long id){
         this.id = id;
     }
 
-    public String getName(){
-        return name;
+    public String getContent(){
+        return content;
     }
 
     public void setId(String name){
-        this.name = name;
+        this.content = name;
     }
 
     public Boolean getChecked(){

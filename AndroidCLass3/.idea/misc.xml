@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/GIT/AndroidClass2/AndroidClass3/app/src/main/res/layout/activity_main.xml" value="0.12273550724637682" />
-        <entry key="..\:/GIT/AndroidClass2/AndroidClass3/app/src/main/res/layout/activity_todo_list.xml" value="0.12273550724637682" />
-        <entry key="..\:/GIT/AndroidClass2/AndroidClass3/app/src/main/res/layout/task_view.xml" value="0.12708333333333333" />
+        <entry key="..\:/GIT/AndroidClass2/AndroidClass3/app/src/main/res/layout/activity_todo_list.xml" value="0.1" />
+        <entry key="..\:/GIT/AndroidClass2/AndroidClass3/app/src/main/res/layout/row_todo_list.xml" value="0.2463768115942029" />
+        <entry key="..\:/GIT/AndroidClass2/AndroidClass3/app/src/main/res/layout/task_view.xml" value="0.176" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29483695652173914" />
         <entry key="app/src/main/res/layout/activity_todo_list.xml" value="0.18" />
         <entry key="app/src/main/res/layout/task_view.xml" value="0.1" />
